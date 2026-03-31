@@ -27,11 +27,7 @@ During development you can run `npm run watch:css` to rebuild on save.
 
 ## Deploy checklist
 
-1. **Canonical & social previews** — In `index.html` inside `<head>`, find-replace `https://example.com` with your real public URL (no trailing slash) in:
-   - `<link rel="canonical" …>`
-   - `og:url`, `og:image`
-   - `twitter:image`
-   - The `application/ld+json` block (`url`, `image`)
+1. **Canonical & social previews** — These are set to `https://pablo-cespedes-web.vercel.app/`. If you add a custom domain, update the same tags in `index.html` (`canonical`, `og:*`, `twitter:image`, JSON-LD `url` / `image`).
 
 2. **Formspree** — The contact form uses `data-form-endpoint` on `#contact-form`. Update it if you create a new form.
 
