@@ -1,0 +1,11 @@
+{
+  "name": "pablo-cespedes-web",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./assets/main.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./assets/main.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
